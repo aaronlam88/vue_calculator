@@ -1,4 +1,5 @@
 <template>
+  <h1>Calculator</h1>
   <div class="calculator">
     <!-- Top row for display -->
     <div class="display">{{ current }}</div>

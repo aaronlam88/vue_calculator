@@ -1,18 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <CalculatorApp />
+  <router-link to="/">
+    <img alt="Vue logo" src="./assets/logo.png">
+  </router-link> <router-view></router-view>
 </template>
-
-<script>
-import CalculatorApp from './components/Calculator.vue'
-
-export default {
-  name: 'App',
-  components: {
-    CalculatorApp
-  }
-}
-</script>
 
 <style>
 #app {
